@@ -1,6 +1,6 @@
 file_format: "1"
 id: one
-name: Ergonaut One Dongle
+name: One Dongle
 type: shield
 url: https://github.com/loredan/ergonaut-one-zmk-config/
 siblings:

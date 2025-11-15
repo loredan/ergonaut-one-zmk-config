@@ -1,3 +1,5 @@
+CONFIG_ZMK_USB=y
+
 if SHIELD_ONE_DONGLE
 
 # Max 16 characters in keyboard name

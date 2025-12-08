@@ -15,7 +15,7 @@
         compatible = "zmk,kscan-gpio-direct";
         wakeup-source;
         input-gpios
-            = <&button0>
+            = <&button0>;
     };
     
     default_transform: keymap_transform_0 {

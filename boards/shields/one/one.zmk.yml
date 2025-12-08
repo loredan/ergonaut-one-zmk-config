@@ -3,5 +3,8 @@ id: one
 name: One Dongle
 type: shield
 url: https://github.com/loredan/ergonaut-one-zmk-config/
+features:
+  - keys
+  - dongle
 siblings:
   - one_dongle

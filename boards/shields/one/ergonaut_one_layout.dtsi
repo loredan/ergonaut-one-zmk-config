@@ -5,6 +5,9 @@
         compatible = "zmk,physical-layout";
         display-name = "Ergonaut One";
 
+        kscan = <&kscan0>;
+        transform = <&matrix_transform0>;
+
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   37       0     0     0>
             , <&key_physical_attrs 100 100  100   37       0     0     0>
@@ -48,6 +51,7 @@
             , <&key_physical_attrs 100 100 1050  325 (-3000)  1100   805>
             , <&key_physical_attrs 100 100 1050  325 (-1500)  1100   805>
             , <&key_physical_attrs 100 100 1050  325       0     0     0>
-        ;
+            , <&key_physical_attrs 100 100    0  400       0     0     0>
+            ;
     };
 };

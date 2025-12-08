@@ -43,6 +43,7 @@ layers:
   - {t: Esc, h: SYM}
   - {t: ⌫, h: Shift}
   - {t: ⌦, h: NUM}
+  - A
   SYM:
   - {t: F1, h: Gui}
   - F2
@@ -86,6 +87,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - A
   NUM:
   - {t: KP NUM, h: Gui}
   - KP SLASH
@@ -129,6 +131,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - A
   ADJ:
   - Boot
   - '&studio_unlock'
@@ -172,3 +175,4 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - A

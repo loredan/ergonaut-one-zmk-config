@@ -23,11 +23,9 @@ include:
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: ergonaut_one_left_no_dongle_studio
-  - board: nrf52840dongle
+  - board: xiao_ble
     shield: one_dongle
     snippet: zmk-usb-logging
     cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: xiao_ble
-    shield: settings_reset
-  - board: nrf52840dongle
     shield: settings_reset

@@ -7,15 +7,15 @@
 
 / {
     chosen {
-        zmk,kscan = &kscan0;
+        zmk,kscan = &mock_kscan;
         zmk,physical-layout = &ergonaut_one_layout;
     };
 
-    kscan0: kscan_0 {
-        compatible = "zmk,kscan-gpio-direct";
-        wakeup-source;
-        input-gpios
-            = <&gpio1 6 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
+    mock_kscan: mock_kscan_0 {
+        compatible = "zmk,kscan-mock";
+        columns = <0>;
+        rows = <0>;
+        events = <0>;
     };
     
     default_transform: keymap_transform_0 {
